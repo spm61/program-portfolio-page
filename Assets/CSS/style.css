@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:20px;
+    box-sizing:border-box;
+    background-image: url(../Images/Background.jpg);
+    font-family: sans-serif;
+  }
+
+  .color-white {
+    color: white;
+  }
+
+  a:link, a:visited {
+    color: white;
+    border: 1px solid blue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin:auto;
+ }
+ a:hover, a:active {
+    color: yellow;
+ }
+
+.container { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .item {
+    width: 32%;
+    padding-bottom: 18%; 
+    margin-bottom: 2%; 
+  }
+
+  .bio-img {
+    width:30%;
+  }
+  
+  .main-img {
+    width: 40%;
+  }
+   
+  .app-img {
+    width: 20%
+  }
+
+  #submit-button {
+    color: gray; 
+  }
+
+
+  .no-background {
+    background-image: none;
+  }
