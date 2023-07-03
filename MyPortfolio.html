@@ -2,19 +2,19 @@
 <html>
     <head>
         <title>Sean's Portfolio</title>
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <h1 id="introHeader">Welcome to My Portfolio!</h1>
+        <link rel="stylesheet" href="./Assets/CSS/style.css">
+        <h1 id="intro-header" class="color-white">Welcome to My Portfolio!</h1>
     </head>
     <body>
-        <main>
+        <main class="color-white">
             <section id="BasicInfo">
                 <div id="myName">
                     <h2>Sean Moroney</h2>
                 </div>
-                <div id="basicBio">
+                <div id="bio-container" class="container">
                     <h2 id="bioTitle">Bio:</h2>
-                    <p class="bioImg"><img src="./assets/images/ProPhoto.png" alt="My Profile Photo" ></p>
-                    <p class="bioText">Enthusiastic Software Developer and Programmer with strong analytical and problem-solving skills. Highly adaptable and detail oriented with the ability to work independently or on a team to create user-friendly systems and applications.   Able to rapidly learn advanced concepts and technology on the fly to bring my best energy each day</p>
+                    <p><img class="bio-img" src="./assets/images/ProPhoto.png" alt="My Profile Photo" ></p>
+                    <p>Enthusiastic Software Developer and Programmer with strong analytical and problem-solving skills. Highly adaptable and detail oriented with the ability to work independently or on a team to create user-friendly systems and applications.   Able to rapidly learn advanced concepts and technology on the fly to bring my best energy each day</p>
                 </div>
             </section>
             <section id="pageLinks">
@@ -33,31 +33,41 @@
             <section id="myprojects">
                 <h2>My Project Portfolio</h2>
                 <p class="projectIntro">These are web projects that I've worked on.</p>
-                <figure id="firstFigure">
-                    <img src="./Assets/Images/FirstAppImage.jpg" alt="Computer Circuit Board">
-                    <figcaption><a id="firstLink" href="https://spm61.github.io/horiseon-refactor-challenge/Develop/index.html">My first web development project!</a></figcaption>
-                  </figure>
-                  <figure id="secondFigure">
-                    <img src="./Assets/Images/SecondAppImage.jpg" alt="Computer Keyboard">
-                    <figcaption><a id="secondLink" href="google.com">Placeholder for future project</a></figcaption>
-                  </figure>
+                
+                <div id="image-container" class="container"> 
+                    <img class="item main-img" src="./Assets/Images/FirstAppImage.jpg" alt="Computer Circuit Board">
+                    <a class="main-link" href="https://spm61.github.io/horiseon-refactor-challenge/Develop/index.html">My first web development project!</a>
+                                         
+                    <img class="item app-img" src="./Assets/Images/SecondAppImage.jpg" alt="Computer Keyboard">      
+                    <a class="app-link" href="google.com">Placeholder for future project</a></figcaption>
+    
+                </div>
             </section>
 
             <section id="contactme">
                 <h2>Contact Me</h2>
-                <div id="contactmecontainer">
+                <div id="contact-container" class="container">
                     <form action="mailto:spmoroney@att.net" method="post" enctype="text/plain">
-                        <label for="firstname">First Name: </label>
-                        <input type="text" id="firstNameInput" name="firstname" placeholder="First Name">
-                        <label for="lastname">Last Name: </label>
-                        <input type="text" id="lastnameinput" name="lastname" placeholder="Last Name">
-                        <label for="subject">Subject</label>
-                        <textarea id="subject" name="subject" placeholder="Your Message Here!"></textarea>
-                        <input type="submit" value="Submit">
+                        
+                        <p>
+                            <label for="firstname">First Name: </label>
+                            <input class="no-background" type="text" id="firstNameInput" name="firstname" placeholder="First Name">
+                        </p>
+                        <p>
+                            <label for="lastname">Last Name: </label>
+                            <input class="no-background" type="text" id="lastnameinput" name="lastname" placeholder="Last Name">
+                        </p>
+                        <p>
+                            <label for="subject">Message</label>
+                            <textarea id="subject" class="no-background" name="subject" placeholder="Your Message Here!"></textarea>
+                        </p>
+                        <p>
+                            <input id="submit-button" class="no-background" type="submit" value="Submit">
+                        </p>
+
                     </form> 
                 </div>
             </section>
-
         </main>
         <footer>
             <div id="authorInfo">
