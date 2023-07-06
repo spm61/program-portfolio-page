@@ -32,25 +32,41 @@
     width: 32%;
     padding-bottom: 18%; 
     margin-bottom: 2%; 
+    justify-content: center;
   }
 
   .bio-img {
     width:30%;
+    border-radius: 100%;
   }
   
   .main-img {
-    width: 40%;
+    width: 60%;
+    display: block;
+    position: relative;
   }
    
   .app-img {
     width: 20%
   }
 
+  .app-link {
+    border-width: 100%;
+    width:10%;
+  }
+
   #submit-button {
     color: gray; 
   }
 
-
   .no-background {
     background-image: none;
+  }
+
+  .align-right {
+    float: right;
+  }
+
+  .align-left {
+    float: left;
   }
