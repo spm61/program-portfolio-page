@@ -1,3 +1,8 @@
+:root{
+  --input-shadow: 0 0 20px rgb(0, 217, 255); 
+}
+
+
 *{
     margin:0;
     padding:20px;
@@ -54,18 +59,29 @@
     margin:auto;
   }
 
+  a:hover, a:active {
+    color: yellow;
+    border: solid 2px blue;
+    box-shadow: 0 0 20px blue;
+
+ }
+
   input:hover {
     font-weight: bolder;
+  }
+
+  input:focus, input:hover {
+    box-shadow: var(--input-shadow);
+  }
+
+  textarea:focus, textarea:hover {
+    box-shadow: var(--input-shadow);
   }
 
   textarea:hover {
     font-weight: bolder;
   }
 
- a:hover, a:active {
-    color: yellow;
-    border: solid 2px blue;
- }
 
   .no-background {
     background-image: none;
@@ -73,10 +89,6 @@
 
   .align-right {
     float: right;
-  }
-
-  .align-left {
-    float: left;
   }
 
   .color-white {
