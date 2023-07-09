@@ -47,8 +47,7 @@
 
 
   a:link, a:visited {
-    color: white;
-    border: 1px solid blue;
+    color: yellow;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -57,12 +56,9 @@
 
  a:hover, a:active {
     color: yellow;
-    background: red;
+    background: blue;
  }
 
- a {
-  background: gray;
- }
   .no-background {
     background-image: none;
   }
