@@ -64,7 +64,7 @@
 
  a:hover, a:active {
     color: yellow;
-    background: blue;
+    border: solid 2px blue;
  }
 
   .no-background {
