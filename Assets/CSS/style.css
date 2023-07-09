@@ -42,7 +42,7 @@
   }
 
   #submit-button {
-    color: gray;
+    color: black;
   }
 
 
@@ -52,6 +52,14 @@
     text-decoration: none;
     display: inline-block;
     margin:auto;
+  }
+
+  input:hover {
+    font-weight: bolder;
+  }
+
+  textarea:hover {
+    font-weight: bolder;
   }
 
  a:hover, a:active {
@@ -79,3 +87,5 @@
     width:90%;
     height: 300%
   }
+
+
