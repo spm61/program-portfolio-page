@@ -50,6 +50,25 @@
     color: black;
   }
 
+  figure {
+    position: relative;
+  }
+
+  figcaption {
+    position: absolute;
+    background: gray;
+  }
+
+  .first-caption {
+    top: 50px;
+    right: 120px;
+
+  }
+
+  .app-caption {
+    top: 50px;
+    right: 180px;
+  }
 
   a:link, a:visited {
     color: yellow;
