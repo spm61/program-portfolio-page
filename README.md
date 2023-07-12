@@ -5,7 +5,7 @@ The second assignment of my coding bootcamp class has me creating a simple portf
 The goal of this project is to create a protfolio that will expand as I create more projects.  It's mostly just placeholders for now, but as I do more projects I'll expand it.  Through this project I learned a little bit about advanced CSS styling and flexible displays to make the layout responsive and dynamically positioned.  
 
 # Usage
-Follow the link to the Deployment URL: https://spm61.github.io/program-portfolio-page/MyPortfolio.html
+Follow the link to the Deployment URL: https://spm61.github.io/program-portfolio-page
 Screenshot to follow once I settle on a layout.
 
 ## License
